@@ -1,7 +1,8 @@
 """
 stringjumble.py
-Author: <your name>
-Credit: <sources>
+Author: johari
+Credit: megsnyder, https://www.geeksforgeeks.org/reverse-string-python-5-different-ways/https://www.geeksforgeeks.org/reverse-string-python-5-different-ways/
+https://stackoverflow.com/questions/529424/traverse-a-list-in-reverse-order-in-python
 
 Assignment:
 
@@ -25,3 +26,29 @@ ydnah dnif yam uoy taht skcirt ro seuqinhcet wef a era erehT
 handy find may you that tricks or techniques few a are There
 erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
+
+st= input("Please enter a string of text (the bigger the better)")
+
+print('You entered "' + st + '". Now jumble it: ') 
+
+def reverse(st): 
+  str = "" 
+  for i in st: 
+    str = i + str
+  return str
+print(reverse(st))
+
+l= list(st)
+j=len(l)
+k=0
+m=0
+for i in reversed(l):
+    if i == " ":
+        r=(l[j-k:j-m:1])
+        print((r))
+        m+=len(r)
+    k+=1
+
+
+
+
