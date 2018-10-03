@@ -48,7 +48,7 @@ for i in reversed(l):
         print((r))
         m+=len(r)
     k+=1
-
+print(l[:j-m])
 
 
 
