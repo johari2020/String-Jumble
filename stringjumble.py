@@ -42,6 +42,14 @@ l= list(st)
 j=len(l)
 k=0
 m=0
+
+for f in st:
+    if f == " ":
+        w = [j-k:j-j:1])
+        print(w)
+        m+=len(w)
+    k+=1
+
 for i in reversed(l):
     if i == " ":
         r=(l[j-k:j-m:1])
@@ -52,5 +60,21 @@ for i in reversed(l):
 d=((l[:j-m]))
 print(d)
 
+o=1
+z=0
+t=0
+y=0
+#for f in reversed(l): 
+    #if f ==" ": 
+     #   l.sort()
+     #   w = (l[:j-z:1])
+    #    print(w)
+    #    y+=len(w)
+    #    m+=1
+  #  t+=1
+    
+#print(w)
+#x = (w[j-m:])
+#print(x)
 
 
