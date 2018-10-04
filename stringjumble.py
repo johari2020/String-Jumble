@@ -48,7 +48,15 @@ for i in reversed(l):
         print((r))
         m+=len(r)
     k+=1
-print(l[:j-m])
+    
+d=((l[:j-m]))
+print(d)
+
+for q in d:
+    g=str(q)
+    print(g)
+
+
 
 
 
