@@ -52,9 +52,7 @@ for i in reversed(l):
 d=((l[:j-m]))
 print(d)
 
-for q in d:
-    g=str(q)
-    print(g)
+
 
 
 
