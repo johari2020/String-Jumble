@@ -42,23 +42,26 @@ l= list(st)
 j=len(l)
 k=0
 m=0
-
+'''
 for f in st:
     if f == " ":
         w = [j-k:j-j:1])
         print(w)
         m+=len(w)
     k+=1
-
+'''
 for i in reversed(l):
     if i == " ":
         r=(l[j-k:j-m:1])
-        print((r))
+        c = ""
+        for i in r:
+            c += i
+        print((c))
         m+=len(r)
     k+=1
     
 d=((l[:j-m]))
-print(d)
+print(str(d))
 
 o=1
 z=0
