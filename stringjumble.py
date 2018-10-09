@@ -37,8 +37,10 @@ def reverse(st):
   for i in st: 
     str = i + str
   return str
-print(reverse(st))
-
+t = (reverse(st))
+tt=list(t)
+jj=len(tt)
+print(str(t))
 l= list(st)
 j=len(l)
 k=0
@@ -51,6 +53,7 @@ for f in st:
         m+=len(w)
     k+=1
 '''
+
 for i in reversed(l):
     if i == " ":
         r=(l[j-k:j-m:1])
@@ -66,54 +69,23 @@ c = ''.join(d)
 print(c)
 
 
-o=1
-z=0
-t=0
-y=0
-#for f in reversed(l): 
-    #if f ==" ": 
-     #   l.sort()
-     #   w = (l[:j-z:1])
-    #    print(w)
-    #    y+=len(w)
-    #    m+=1
-  #  t+=1
-    
-#print(w)
-#x = (w[j-m:])
-#print(x)
 
-ll= list(st)
-jj=len(l)
 kk=0
 mm=0
-'''
-for ii in reversed(ll):
+for ii in reversed(tt):
     if ii == " ":
-        rr=(l[jj-kk:jj-mm:1])
-        v = r.reverse()
+        rr=(tt[jj-kk:jj-mm:1])
         cc = ""
-        for ii in v:
+        for ii in rr:
             cc += ii
-        print((c))
-        mm+=len(v)
+        print((cc))
+        mm+=len(rr)
     kk+=1
-    dd=((ll[:jj-mm]))
-qq = ''.join(dd)
-print(qq)
-'''
-for ii in reversed(ll):
-    if ii == " ":
-        rr=(l[jj-kk:jj-mm:1])
-        v = rr.reverse()
-        cc = ""
-        print(v)
-        print((c))
-        mm+=len(v)
-        print(v)
-    kk+=1
-    dd=((ll[:jj-mm]))
-   
+    
+dd=((tt[:jj-mm]))
+cc = ''.join(dd)
+print(cc)
+
 
 
 
