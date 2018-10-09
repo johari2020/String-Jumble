@@ -61,11 +61,8 @@ for i in reversed(l):
         for i in r:
             c += i
         m+=len(r)
-        ee = []
-        ee.append(str(c))
+        print(c, end = ' ')
     k+=1
-ss= ''.join(ee)
-print(ss)
 d=((l[:j-m]))
 c = ''.join(d)
 print(c)
@@ -80,7 +77,7 @@ for ii in reversed(tt):
         cc = ""
         for ii in rr:
             cc += ii
-        print((cc))
+        print((cc), end = ' ' )
         mm+=len(rr)
     kk+=1
     
