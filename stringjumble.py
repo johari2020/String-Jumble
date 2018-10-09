@@ -4,7 +4,7 @@ Author: johari
 Credit: megsnyder, https://www.geeksforgeeks.org/reverse-string-python-5-different-ways/https://www.geeksforgeeks.org/reverse-string-python-5-different-ways/
 https://stackoverflow.com/questions/529424/traverse-a-list-in-reverse-order-in-python
 https://stackoverflow.com/questions/4481724/convert-a-list-of-characters-into-a-string
-
+noah
 Assignment:
 
 The purpose of this challenge is to gain proficiency with 
@@ -82,13 +82,38 @@ y=0
 #print(w)
 #x = (w[j-m:])
 #print(x)
-for i 
-def reverse(st): 
-  str = "" 
-  for i in st: 
-    str = i + str
-  return str
-print(reverse(st))
+
+ll= list(st)
+jj=len(l)
+kk=0
+mm=0
+'''
+for ii in reversed(ll):
+    if ii == " ":
+        rr=(l[jj-kk:jj-mm:1])
+        v = r.reverse()
+        cc = ""
+        for ii in v:
+            cc += ii
+        print((c))
+        mm+=len(v)
+    kk+=1
+    dd=((ll[:jj-mm]))
+qq = ''.join(dd)
+print(qq)
+'''
+for ii in reversed(ll):
+    if ii == " ":
+        rr=(l[jj-kk:jj-mm:1])
+        v = rr.reverse()
+        cc = ""
+        print(v)
+        print((c))
+        mm+=len(v)
+        print(v)
+    kk+=1
+    dd=((ll[:jj-mm]))
+   
 
 
 
