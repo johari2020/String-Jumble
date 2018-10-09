@@ -28,7 +28,7 @@ handy find may you that tricks or techniques few a are There
 erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 
-st= input("Please enter a string of text (the bigger the better)")
+st= input("Please enter a string of text (the bigger the better): ")
 
 print('You entered "' + st + '". Now jumble it: ') 
 
@@ -60,10 +60,12 @@ for i in reversed(l):
         c = ""
         for i in r:
             c += i
-        print((c))
         m+=len(r)
+        ee = []
+        ee.append(str(c))
     k+=1
-    
+ss= ''.join(ee)
+print(ss)
 d=((l[:j-m]))
 c = ''.join(d)
 print(c)
