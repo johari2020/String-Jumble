@@ -3,6 +3,7 @@ stringjumble.py
 Author: johari
 Credit: megsnyder, https://www.geeksforgeeks.org/reverse-string-python-5-different-ways/https://www.geeksforgeeks.org/reverse-string-python-5-different-ways/
 https://stackoverflow.com/questions/529424/traverse-a-list-in-reverse-order-in-python
+https://stackoverflow.com/questions/4481724/convert-a-list-of-characters-into-a-string
 
 Assignment:
 
@@ -61,7 +62,9 @@ for i in reversed(l):
     k+=1
     
 d=((l[:j-m]))
-print(str(d))
+c = ''.join(d)
+print(c)
+
 
 o=1
 z=0
@@ -79,5 +82,13 @@ y=0
 #print(w)
 #x = (w[j-m:])
 #print(x)
+for i 
+def reverse(st): 
+  str = "" 
+  for i in st: 
+    str = i + str
+  return str
+print(reverse(st))
+
 
 
